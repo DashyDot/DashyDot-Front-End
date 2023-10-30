@@ -1,54 +1,36 @@
-# Astro Starter Kit: Basics
+# Front-End DashyDot | Login view
 
-```sh
-npm create astro@latest -- --template basics
-```
+![Front-End Login View](./dashydotloginfront.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## DashyDot: Una herramienta de gestión de proyectos personales
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+DashyDot es un proyecto FullStack OpenSource diseñado para ayudar en la organización de proyectos personales. Esta herramienta tiene como objetivo proporcionar una plataforma integral para gestionar y hacer un seguimiento de diversos aspectos de tus proyectos, ayudándote a mantener la organización y la concentración. A continuación, se presentan las características principales de DashyDot:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### Propósito
+DashyDot se creó con el propósito principal de simplificar el proceso de gestión de proyectos para personas que trabajan en proyectos personales. Ofrece una plataforma centralizada que permite a los usuarios planificar, hacer un seguimiento y colaborar de manera efectiva en sus proyectos, asegurando una mayor productividad y organización.
 
-## 🚀 Project Structure
+### Características principales
+1. **Tablero de proyectos**: DashyDot proporciona un tablero intuitivo y fácil de usar donde puedes crear y gestionar tus proyectos. El tablero ofrece una vista general de todos tus proyectos, su progreso y detalles clave.
 
-Inside of your Astro project, you'll see the following folders and files:
+2. **Gestión de tareas**: Con DashyDot, puedes crear y hacer un seguimiento de las tareas dentro de cada proyecto. Asigna fechas de vencimiento, establece prioridades y supervisa el progreso de las tareas para garantizar una finalización eficiente del proyecto.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+3. **Gestión de archivos**: La plataforma te permite cargar y organizar archivos, documentos y recursos relacionados con el proyecto. Esta función garantiza que todos los archivos necesarios del proyecto estén fácilmente accesibles y correctamente organizados.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+4. **Seguimiento de tiempo y progreso**: DashyDot ofrece una línea de tiempo visual para hacer un seguimiento del progreso de tus proyectos. Puedes establecer hitos, realizar un seguimiento de los plazos y supervisar el progreso general de tu proyecto a través de una interfaz fácil de entender.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+5. **Notificaciones y recordatorios**: Mantente informado sobre las actualizaciones del proyecto, las asignaciones de tareas y los plazos que se acercan gracias al sistema de notificaciones de DashyDot. Recibe recordatorios y alertas para asegurarte de que nunca te pierdas una tarea importante o un plazo.
 
-Any static assets, like images, can be placed in the `public/` directory.
+### FullStack OpenSource
+DashyDot es un proyecto FullStack OpenSource, lo que significa que el código fuente está disponible de forma gratuita para su modificación y personalización. Está desarrollado utilizando tecnologías modernas tanto en el frontend como en el backend, para garantizar una solución sólida y escalable.
 
-## 🧞 Commands
+El frontend se desarrolla utilizando tecnologías web modernas como HTML, CSS y frameworks de JavaScript como React o Angular. El backend se basa en una tecnología de lado del servidor como Node.js o Django, combinada con un sistema de gestión de bases de datos como MongoDB o MySQL.
 
-All commands are run from the root of the project, from a terminal:
+### Beneficios de DashyDot
+- Organización y gestión mejoradas de proyectos.
+- Mejora de la colaboración y la comunicación entre los miembros del equipo del proyecto.
+- Aumento de la productividad y la eficiencia gracias al seguimiento de tareas y el monitoreo del progreso.
+- Gestión centralizada de archivos para un acceso fácil a los recursos relacionados con el proyecto.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+DashyDot está diseñado para empoderar a las personas que trabajan en proyectos personales, proporcionándoles una plataforma poderosa y personalizable de gestión de proyectos. Su naturaleza de código abierto permite a los desarrolladores contribuir, personalizar y ampliar sus funcionalidades para satisfacer sus necesidades específicas de gestión de proyectos.
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Por favor, ten en cuenta que DashyDot es un proyecto ficticio creado con fines explicativos y no existe como software real en este momento.
