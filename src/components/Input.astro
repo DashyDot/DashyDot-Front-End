@@ -1,0 +1,12 @@
+---
+interface Props {
+    name: string,
+    isCovered: any
+    id: string
+}
+
+const { name, isCovered, id } = Astro.props;
+---
+<input type={isCovered !== true ? "text" : "password"} name={name} id={name} class={!isCovered ? "bg-dark-green text-light-green placeholder-light-green py-3 px-5 w-96 mt-10 rounded-[8px] text-lg outline-none" : "bg-dark-red text-light-red placeholder-light-red py-3 px-5 w-96 mt-10 rounded-[8px] text-lg outline-none"} required autocomplete="off" placeholder={name} id={id}>
+
+

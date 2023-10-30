@@ -1,0 +1,33 @@
+---
+    import Input from './Input.astro';
+    import Button from './Button.astro';
+    import DashyDotLogo from './images/dashydotLogo.svg'
+---
+
+<form class="max-w-sm mx-auto flex justify-center items-center " id="login-form">
+    <div class="text-center  p-16 rounded-xl">
+        <img src={DashyDotLogo.src} alt="DashyDot Logo" class="my-5 mx-auto">
+
+        <h1 class="text-white font-extrabold text-xl py-5 mx-auto">SIGN<span class="text-primary">IN</span></h1>
+    
+        <small class="text-sm text-white font-light text-center">Hello, please use the login credentials you have, if you cannot access or forgot your information please ask a <br> developer for help.</small>
+
+        <Input 
+            name='User'
+            isCovered={false}
+            id="user-input"
+        />
+
+        <Input 
+            name='Password'
+            isCovered={true}
+            id="password-input"
+        />
+
+        <Button 
+            content='SIGN IN'
+        />
+    </div>
+</form>
+
+<script src="./Auth/Auth.js"></script>
